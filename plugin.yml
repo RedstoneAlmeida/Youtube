@@ -1,0 +1,16 @@
+---
+name: Youtube
+aurthor: RedstoneAlmeida
+description: This is Youtube plugin
+version: 1.0.0
+api: [1.12.0]
+main: Youtube\main
+
+commands:
+    youtube:
+        description: Send Message To user
+        permissions: youtube.cmd
+permissions:
+    youtube.cmd:
+        default: true
+        description: "Send Message To user"
